@@ -42,3 +42,27 @@ Replace 'your-api-key-here' with the actual key you received from OMDb:
 ```js
 const apiKey = 'abcdef12' // Example key
 ```
+
+## 🙏 Acknowledgements
+
+This project was made possible thanks to the following:
+
+- 🎬 [OMDb API](https://www.omdbapi.com/) — For providing free access to movie data.
+- 🖼️ [Font Awesome](https://fontawesome.com/) — For the icons used in the UI.
+- 🧠 [OpenAI ChatGPT](https://openai.com/chatgpt) — For assistance with code, troubleshooting, and content formatting.
+- 🖋️ [Google Fonts](https://fonts.google.com/) — For providing beautiful web fonts used in the app (Inter & Exo 2).
+
+## 📝 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+You are free to:
+
+- ✅ Use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
+
+Under the following conditions:
+
+- 📄 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+- 🚫 The software is provided "as is", without warranty of any kind.
+
+For full license details, please see the [LICENSE](LICENSE) file in this repository.
