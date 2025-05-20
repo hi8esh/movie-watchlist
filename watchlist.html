@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Google Fonts-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    <title>Movie Watchlist</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <!--Icons-->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/Site-header.png" class="header-img" alt="image of a background">
+            <div class="texts">            
+                
+                <h1>My Watchlist</h1>
+                <h3><a href="./index.html">Find your film</a></h3>
+
+            </div>
+        </header>
+        <main onload="renderWatchlist()"></main>
+            <div class="watchlist-body" id="watchlistBody">
+                <h1>Your watchlist is looking a little empty...</h1>
+                <button><i class="fa-solid fa-circle-plus"></i> <a href="./index.html">Let's add some movies!</a></button>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="footer-content">
+          <p>© 2025 Movie Watchlist. All rights reserved.</p>
+          <p>Made with <span style="color: #e25555;">&#10084;</span> by <a href="https://github.com/hi8esh" target="_blank">hi8esh</a></p>
+        </div>
+    </footer>
+</body>
+    <script src="./script.js"></script>
+</html>
